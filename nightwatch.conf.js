@@ -7,7 +7,7 @@ require('nightwatch-cucumber')({
       '--require', `${process.env.SMOKETEST_BANNER}/step_definitions`,
       '--format', 'node_modules/cucumber-pretty',
       '--format', cucumberFile,
-      '--format-options', '{"colorsEnabled": true}',
+      '--format-options', '{"colorsEnabled": true}',,
       `${process.env.SMOKETEST_BANNER}/features`
     ]
   });
