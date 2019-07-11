@@ -1,0 +1,8 @@
+node_modules
+*/reports
+selenium-debug.log
+screenshots
+reports
+.DS_Store
+package-lock.json
+logs
